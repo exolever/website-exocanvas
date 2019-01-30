@@ -14,8 +14,8 @@ const HowScalable = () => (
             <span className="image fit">
               <img
                 src={HowScalableSectionImage}
-                alt="image"
-                style="width:auto;margin:0 auto;"
+                alt="How Scalable"
+                style={{ width: 'auto', margin: '0 auto' }}
               />
             </span>
           </div>
@@ -28,7 +28,7 @@ const HowScalable = () => (
               Organization means closing the gap between a traditional linear
               organization and its exponential environment. An ExO is at least
               10x more effective, efficient and/or faster relative to its linear
-              peers in the same market
+              peers in the same market.
             </p>
             <p>
               The rapid advancement of technology is disrupting businesses at an
@@ -38,7 +38,7 @@ const HowScalable = () => (
               organizational techniques and accelerating technologies to create
               an Exponential Organization (ExO). The ExO Canvas is a guide to
               assist organizations onto a new path to embraces technology and
-              leverages new ways to scale, think, plan and operate
+              leverages new ways to scale, think, plan and operate.
             </p>
           </div>
         </div>

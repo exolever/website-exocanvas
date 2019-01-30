@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 
 import downloadCanvasHomeImage from '../images/download_canvas_home.png'
 import howScalableHomeImage from '../images/how_scalable_home.png'
@@ -20,9 +21,9 @@ const IndexMain = () => (
             </p>
             <ul className="actions">
               <li>
-                <a href="#one" className="button scrolly">
+                <Link href="#one" className="button scrolly">
                   Learn more
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -32,13 +33,13 @@ const IndexMain = () => (
 
     <section id="one" className="wrapper style2 spotlights">
       <section id="subscribe_form_section">
-        <a href="#one" className="image">
+        <Link to="#one" className="image">
           <img
             src={downloadCanvasHomeImage}
             alt=""
             data-position="center center"
           />
-        </a>
+        </Link>
         <div className="content">
           <div className="inner">
             <h2>Download the ExO Canvas</h2>
@@ -53,9 +54,8 @@ const IndexMain = () => (
               method="post"
               action="{% url 'landing:subscribe' %}"
               data-message="Thanks for joining us! Now you are subscribed to the ExO Canvas community!"
-              data-download="{% static 'assets/pdf/exocanvas.pdf' %}"
+              data-download="/pdf/exocanvas.pdf"
             >
-              {/* {% csrf_token %} */}
               <div className="fields">
                 <div className="field half">
                   {/* {{ form_subscription }} */}
@@ -73,9 +73,13 @@ const IndexMain = () => (
         </div>
       </section>
       <section>
-        <a href="{% url 'landing:how-scalable' %}" className="image">
-          <img src={howScalableHomeImage} alt="" data-position="top center" />
-        </a>
+        <Link className="image" to="/how-scalable/">
+          <img
+            src={howScalableHomeImage}
+            alt="How Scalable Home"
+            data-position="top center"
+          />
+        </Link>
         <div className="content">
           <div className="inner">
             <h2>How scalable is your organization? Is it an ExO?</h2>
@@ -86,18 +90,22 @@ const IndexMain = () => (
             </p>
             <ul className="actions">
               <li>
-                <a href="{% url 'landing:how-scalable' %}" className="button">
+                <Link className="button" to="/how-scalable/">
                   Learn more
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
         </div>
       </section>
       <section>
-        <a href="{% url 'landing:creation-process' %}" className="image">
-          <img src={rawPixel706373Unsplash} alt="" data-position="25% 25%" />
-        </a>
+        <Link to="/creation-process/" className="image">
+          <img
+            src={rawPixel706373Unsplash}
+            alt="Creation Process"
+            data-position="25% 25%"
+          />
+        </Link>
         <div className="content">
           <div className="inner">
             <h2>The ExO Canvas Co-Creation Process</h2>
@@ -108,12 +116,9 @@ const IndexMain = () => (
             </p>
             <ul className="actions">
               <li>
-                <a
-                  href="{% url 'landing:creation-process' %}"
-                  className="button"
-                >
+                <Link className="button" to="/creation-process/">
                   contribute
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -132,7 +137,6 @@ const IndexMain = () => (
               className="custom_form"
               data-message="Thank you for your message. We’ll be in touch soon!"
             >
-              {/* {% csrf_token %} */}
               <div className="fields">
                 <div className="field">{/* {{form_contact}} */}</div>
               </div>

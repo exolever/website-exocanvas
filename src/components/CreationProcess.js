@@ -1,6 +1,7 @@
 import React from 'react'
+import { Link } from 'gatsby'
 
-import rawPixel706373UnsplashImage.jpg from '../images/rawpixel-706373-unsplash.jpg'
+import rawPixel706373UnsplashImage from '../images/rawpixel-706373-unsplash.jpg'
 
 const CreationProcess = () => (
   <div id="wrapper">
@@ -10,10 +11,7 @@ const CreationProcess = () => (
         <div className="row">
           <div className="col-4 col-12-small">
             <span className="image fit">
-              <img
-                src={rawPixel706373UnsplashImage}
-                alt=""
-              />
+              <img src={rawPixel706373UnsplashImage} alt="" />
             </span>
           </div>
           <div className="col-8 col-12-small">
@@ -33,10 +31,10 @@ const CreationProcess = () => (
                 color: 'white',
               }}
             >
-              <a href="{% url 'landing:co-creators' %}">
+              <Link to="/co-creators/">
                 Here you can see a full list of the Co-Creators of the ExO
                 Canvas
-              </a>
+              </Link>
             </p>
 
             <p>
