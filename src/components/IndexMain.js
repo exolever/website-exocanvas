@@ -1,8 +1,10 @@
 import React from 'react'
 
 import downloadCanvasHomeImage from '../images/download_canvas_home.png'
+import howScalableHomeImage from '../images/how_scalable_home.png'
+import rawPixel706373Unsplash from '../images/rawpixel-706373-unsplash.jpg'
 
-const Index = () => (
+const IndexMain = () => (
   <div id="wrapper">
     <section id="intro" className="wrapper style1 fullscreen fade-up">
       <div className="inner">
@@ -72,11 +74,7 @@ const Index = () => (
       </section>
       <section>
         <a href="{% url 'landing:how-scalable' %}" className="image">
-          <img
-            src="{% static 'images/how_scalable_home.png' %}"
-            alt=""
-            data-position="top center"
-          />
+          <img src={howScalableHomeImage} alt="" data-position="top center" />
         </a>
         <div className="content">
           <div className="inner">
@@ -98,11 +96,7 @@ const Index = () => (
       </section>
       <section>
         <a href="{% url 'landing:creation-process' %}" className="image">
-          <img
-            src="{% static 'images/rawpixel-706373-unsplash.jpg' %}"
-            alt=""
-            data-position="25% 25%"
-          />
+          <img src={rawPixel706373Unsplash} alt="" data-position="25% 25%" />
         </a>
         <div className="content">
           <div className="inner">
@@ -153,4 +147,4 @@ const Index = () => (
   </div>
 )
 
-export default Index
+export default IndexMain
