@@ -6,6 +6,11 @@ import { Link } from 'gatsby'
 // import SEO from '../components/seo'
 import Index from '../components/Index'
 
+import '../css/custom.css'
+import '../css/font-awesome.min.css'
+import '../css/main.css'
+import '../css/noscript.css'
+
 const IndexPage = () => (
   // <Layout>
   //   <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />

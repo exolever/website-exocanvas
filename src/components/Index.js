@@ -1,5 +1,7 @@
 import React from 'react'
 
+import downloadCanvasHomeImage from '../images/download_canvas_home.png'
+
 const Index = () => (
   <div id="wrapper">
     <section id="intro" className="wrapper style1 fullscreen fade-up">
@@ -30,7 +32,7 @@ const Index = () => (
       <section id="subscribe_form_section">
         <a href="#one" className="image">
           <img
-            src="{% static 'images/download_canvas_home.png' %}"
+            src={downloadCanvasHomeImage}
             alt=""
             data-position="center center"
           />
