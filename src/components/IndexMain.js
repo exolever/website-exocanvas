@@ -21,9 +21,9 @@ const IndexMain = () => (
             </p>
             <ul className="actions">
               <li>
-                <Link to="/#one" className="button scrolly">
+                <a href="#one" className="button scrolly">
                   Learn more
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
@@ -33,13 +33,13 @@ const IndexMain = () => (
 
     <section id="one" className="wrapper style2 spotlights">
       <section id="subscribe_form_section">
-        <Link to="/#one" className="image">
+        <a href="#one" className="image">
           <img
             src={downloadCanvasHomeImage}
             alt=""
             data-position="center center"
           />
-        </Link>
+        </a>
         <div className="content">
           <div className="inner">
             <h2>Download the ExO Canvas</h2>
@@ -73,13 +73,13 @@ const IndexMain = () => (
         </div>
       </section>
       <section>
-        <Link className="image" to="/how-scalable/">
+        <a href="/how-scalable/" className="image">
           <img
             src={howScalableHomeImage}
             alt="How Scalable Home"
             data-position="top center"
           />
-        </Link>
+        </a>
         <div className="content">
           <div className="inner">
             <h2>How scalable is your organization? Is it an ExO?</h2>
@@ -90,22 +90,22 @@ const IndexMain = () => (
             </p>
             <ul className="actions">
               <li>
-                <Link className="button" to="/how-scalable/">
+                <a className="button" href="/how-scalable/">
                   Learn more
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
         </div>
       </section>
       <section>
-        <Link to="/creation-process/" className="image">
+        <a href="/creation-process/" className="image">
           <img
             src={rawPixel706373Unsplash}
             alt="Creation Process"
             data-position="25% 25%"
           />
-        </Link>
+        </a>
         <div className="content">
           <div className="inner">
             <h2>The ExO Canvas Co-Creation Process</h2>
@@ -116,9 +116,9 @@ const IndexMain = () => (
             </p>
             <ul className="actions">
               <li>
-                <Link className="button" to="/creation-process/">
+                <a className="button" href="/creation-process/">
                   contribute
-                </Link>
+                </a>
               </li>
             </ul>
           </div>

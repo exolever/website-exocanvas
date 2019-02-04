@@ -31,10 +31,10 @@ const CreationProcess = () => (
                 color: 'white',
               }}
             >
-              <Link to="/co-creators/">
+              <a href="/co-creators/">
                 Here you can see a full list of the Co-Creators of the ExO
                 Canvas
-              </Link>
+              </a>
             </p>
 
             <p>

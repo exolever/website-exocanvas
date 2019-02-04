@@ -1,13 +1,12 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import { Location } from '@reach/router'
 
 const HeaderAlternative = () => {
   return (
     <header id="header">
-      <Link className="title" to="/">
+      <a className="title" href="/">
         ExO Canvas
-      </Link>
+      </a>
       <nav>
         <Location>
           {locationProps => {
@@ -22,14 +21,14 @@ const HeaderAlternative = () => {
                     pathname === HOW_SCALABLE_PATH ? 'active' : ''
                   }`}
                 >
-                  <Link to={HOW_SCALABLE_PATH}>How scalable</Link>
+                  <a href={HOW_SCALABLE_PATH}>How scalable</a>
                 </li>
                 <li
                   className={`${
                     pathname === CREATION_PROCESS_PATH ? 'active' : ''
                   }`}
                 >
-                  <Link to={CREATION_PROCESS_PATH}>Contribute</Link>
+                  <a href={CREATION_PROCESS_PATH}>Contribute</a>
                 </li>
               </ul>
             )

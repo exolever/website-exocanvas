@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 const Header = () => (
   <section id="sidebar">
@@ -7,13 +6,13 @@ const Header = () => (
       <nav>
         <ul>
           <li>
-            <Link to="/#intro">Welcome</Link>
+            <a href="#intro">Welcome</a>
           </li>
           <li>
-            <Link to="/#one">What is ExO Canvas?</Link>
+            <a href="#one">What is ExO Canvas?</a>
           </li>
           <li>
-            <Link to="/#three">Get in touch</Link>
+            <a href="#three">Get in touch</a>
           </li>
         </ul>
       </nav>
