@@ -11,13 +11,24 @@ const IndexMain = () => (
         <div className="row">
           <div className="col-6 content">
             <h1>ExO Canvas</h1>
-            <p>Your Exponential Organization on one page</p>
-            <p>
-              The ExO Canvas helps visionaries, innovators, top executives and
-              entrepreneurs design highly scalable organizations by leveraging
-              new organizational techniques and accelerating technologies,
-              creating an Exponential Organization
-            </p>
+            <div
+              style={{
+                backgroundColor: 'rgba(0,0,0,.6)',
+                borderRadius: 4,
+                padding: 2,
+              }}
+            >
+              <div>
+                <p>Your Exponential Organization on one page</p>
+                <p>
+                  The ExO Canvas helps visionaries, innovators, top executives
+                  and entrepreneurs design highly scalable organizations by
+                  leveraging new organizational techniques and accelerating
+                  technologies, creating an Exponential Organization
+                </p>
+              </div>
+            </div>
+
             <ul className="actions">
               <li>
                 <a href="#one" className="button scrolly">
