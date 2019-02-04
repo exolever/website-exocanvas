@@ -7,13 +7,13 @@ const Header = () => (
       <nav>
         <ul>
           <li>
-            <Link to="#intro">Welcome</Link>
+            <Link to="/#intro">Welcome</Link>
           </li>
           <li>
-            <Link to="#one">What is ExO Canvas?</Link>
+            <Link to="/#one">What is ExO Canvas?</Link>
           </li>
           <li>
-            <Link to="#three">Get in touch</Link>
+            <Link to="/#three">Get in touch</Link>
           </li>
         </ul>
       </nav>

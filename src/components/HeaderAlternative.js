@@ -1,32 +1,43 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import { Location } from '@reach/router'
 
-const HeaderAlternative = () => (
-  <header id="header">
-    <Link className="title" to="/">
-      ExO Canvas
-    </Link>
-    <nav>
-      {/* <ul>
-        <li {% if section == 'scalable' %}className="active"{% endif %}>
-          <a href="{% url 'landing:how-scalable' %}">How scalable</a>
-        </li>
-        <li {% if section == 'creation' %}className="active"{% endif %}>
-          <a href="{% url 'landing:creation-process' %}">Contribute</a>
-        </li>
-      </ul> */}
+const HeaderAlternative = () => {
+  return (
+    <header id="header">
+      <Link className="title" to="/">
+        ExO Canvas
+      </Link>
+      <nav>
+        <Location>
+          {locationProps => {
+            const { pathname } = locationProps.location
+            const HOW_SCALABLE_PATH = '/how-scalable/'
+            const CREATION_PROCESS_PATH = '/creation-process/'
 
-      {/* TODO: Make active link take className active, as above */}
-      <ul>
-        <li>
-          <Link to="/how-scalable/">How scalable</Link>
-        </li>
-        <li>
-          <Link to="/creation-process/">Contribute</Link>
-        </li>
-      </ul>
-    </nav>
-  </header>
-)
+            return (
+              <ul>
+                <li
+                  className={`${
+                    pathname === HOW_SCALABLE_PATH ? 'active' : ''
+                  }`}
+                >
+                  <Link to={HOW_SCALABLE_PATH}>How scalable</Link>
+                </li>
+                <li
+                  className={`${
+                    pathname === CREATION_PROCESS_PATH ? 'active' : ''
+                  }`}
+                >
+                  <Link to={CREATION_PROCESS_PATH}>Contribute</Link>
+                </li>
+              </ul>
+            )
+          }}
+        </Location>
+      </nav>
+    </header>
+  )
+}
 
 export default HeaderAlternative

@@ -21,7 +21,7 @@ const IndexMain = () => (
             </p>
             <ul className="actions">
               <li>
-                <Link href="#one" className="button scrolly">
+                <Link to="/#one" className="button scrolly">
                   Learn more
                 </Link>
               </li>
@@ -33,7 +33,7 @@ const IndexMain = () => (
 
     <section id="one" className="wrapper style2 spotlights">
       <section id="subscribe_form_section">
-        <Link to="#one" className="image">
+        <Link to="/#one" className="image">
           <img
             src={downloadCanvasHomeImage}
             alt=""

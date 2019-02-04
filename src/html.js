@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { withPrefix } from 'gatsby'
 
 export default function HTML(props) {
   return (
@@ -25,14 +26,32 @@ export default function HTML(props) {
         />
         {props.postBodyComponents}
 
-        <script src="/js/jquery.min.js" />
-        <script src="/js/jquery.scrollex.min.js" />
-        <script src="/js/jquery.scrolly.min.js" />
-        <script src="/js/browser.min.js" />
-        <script src="/js/breakpoints.min.js" />
-        <script src="/js/util.js" />
-        <script src="/js/main.js" />
-        <script src="/js/forms.js" />
+        <script
+          type="application/javascript"
+          src={withPrefix('/js/jquery.min.js')}
+        />
+        <script
+          type="application/javascript"
+          src={withPrefix('/js/jquery.scrollex.min.js')}
+        />
+        <script
+          type="application/javascript"
+          src={withPrefix('/js/jquery.scrolly.min.js')}
+        />
+        <script
+          type="application/javascript"
+          src={withPrefix('/js/browser.min.js')}
+        />
+        <script
+          type="application/javascript"
+          src={withPrefix('/js/breakpoints.min.js')}
+        />
+        <script type="application/javascript" src={withPrefix('/js/util.js')} />
+        <script type="application/javascript" src={withPrefix('/js/main.js')} />
+        <script
+          type="application/javascript"
+          src={withPrefix('/js/forms.js')}
+        />
       </body>
     </html>
   )
