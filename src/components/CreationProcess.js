@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 import rawPixel706373UnsplashImage from '../images/rawpixel-706373-unsplash.jpg'
 

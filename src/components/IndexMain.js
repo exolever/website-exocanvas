@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 import downloadCanvasHomeImage from '../images/download_canvas_home.png'
 import howScalableHomeImage from '../images/how_scalable_home.png'

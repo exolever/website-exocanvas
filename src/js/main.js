@@ -4,7 +4,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-;(function($) {
+export const main = () => $ => {
   const run = () => {
     var $window = $(window),
       $body = $('body'),
@@ -20,7 +20,7 @@
     })
 
     // Hack: Enable IE flexbox workarounds.
-    if (browser.name == 'ie') $body.addClass('is-ie')
+    if (browser.name === 'ie') $body.addClass('is-ie')
 
     // Play initial animations on page load.
     $window.on('load', function() {
@@ -53,7 +53,7 @@
           var $this = $(this)
 
           // External link? Bail.
-          if ($this.attr('href').charAt(0) != '#') return
+          if ($this.attr('href').charAt(0) !== '#') return
 
           // Deactivate all links.
           $sidebar_a.removeClass('active')
@@ -83,7 +83,7 @@
               $section.removeClass('inactive')
 
               // No locked links? Deactivate all links and activate this section's one.
-              if ($sidebar_a.filter('.active-locked').length == 0) {
+              if ($sidebar_a.filter('.active-locked').length === 0) {
                 $sidebar_a.removeClass('active')
                 $this.addClass('active')
               }
@@ -159,5 +159,7 @@
     })
   }
 
-  setTimeout(run, 1000)
-})(jQuery)
+  $(document).ready(function() {
+    run()
+  })
+}
