@@ -12,8 +12,15 @@ export default function HTML(props) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        <link rel="icon" href="/images/cropped-favicon-32x32.png" sizes="32x32">
-		    <meta name="msapplication-TileImage" content="/images/cropped-favicon.png">
+        <link
+          rel="icon"
+          href="/images/cropped-favicon-32x32.png"
+          sizes="32x32"
+        />
+        <meta
+          name="msapplication-TileImage"
+          content="/images/cropped-favicon.png"
+        />
         <link rel="stylesheet" href="/css/custom.css" preload="true" />
         <link
           rel="stylesheet"
