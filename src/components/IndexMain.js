@@ -1,5 +1,7 @@
 import React from 'react'
 
+import ContactForm from './forms/ContactForm'
+import SubscriptionForm from './forms/SubscriptionForm'
 import downloadCanvasHomeImage from '../images/download_canvas_home.png'
 import howScalableHomeImage from '../images/how_scalable_home.png'
 import rawPixel706373Unsplash from '../images/rawpixel-706373-unsplash.jpg'
@@ -14,8 +16,8 @@ const IndexMain = () => (
             <div
               style={{
                 backgroundColor: 'rgba(0,0,0,.6)',
-                borderRadius: 4,
-                padding: 2,
+                borderRadius: 8,
+                padding: '12px 24px 0 24px',
               }}
             >
               <div>
@@ -59,26 +61,7 @@ const IndexMain = () => (
               new organizational techniques and accelerating technologies,
               creating an Exponential Organization (ExO).
             </p>
-            <form
-              className="custom_form"
-              method="post"
-              action="{% url 'landing:subscribe' %}"
-              data-message="Thanks for joining us! Now you are subscribed to the ExO Canvas community!"
-              data-download="/pdf/exocanvas.pdf"
-            >
-              <div className="fields">
-                <div className="field half">
-                  {/* {{ form_subscription }} */}
-                </div>
-              </div>
-              <ul className="actions">
-                <li>
-                  <a id="subscribe_submit_button" className="button submit">
-                    Download
-                  </a>
-                </li>
-              </ul>
-            </form>
+            <SubscriptionForm />
           </div>
         </div>
       </section>
@@ -141,19 +124,7 @@ const IndexMain = () => (
         <h2>Get in Touch</h2>
         <div className="split style1">
           <section id="contact_form_section">
-            <form
-              method="post"
-              action="{% url 'landing:contact' %}"
-              className="custom_form"
-              data-message="Thank you for your message. We’ll be in touch soon!"
-            >
-              <div className="fields">
-                <div className="field">{/* {{form_contact}} */}</div>
-              </div>
-              <a id="contact_submit_button" className="button submit">
-                Send
-              </a>
-            </form>
+            <ContactForm />
           </section>
         </div>
       </div>

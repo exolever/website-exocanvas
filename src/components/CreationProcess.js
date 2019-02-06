@@ -1,6 +1,7 @@
 import React from 'react'
 
 import rawPixel706373UnsplashImage from '../images/rawpixel-706373-unsplash.jpg'
+import ContributeForm from './forms/ContributeForm'
 
 const CreationProcess = () => (
   <div id="wrapper">
@@ -48,19 +49,7 @@ const CreationProcess = () => (
     <section className="wrapper">
       <div className="inner" style={{ paddingTop: 0 }}>
         <h4>You may become an official Co-Creator of the ExO Canvas:</h4>
-        <form
-          method="post"
-          action="{% url 'landing:contribute' %}"
-          className="custom_form"
-          data-message="Thank you for your suggestions and contribution. We’ll be in touch soon!"
-        >
-          <div className="fields">
-            <div className="field">{/* {{form}} */}</div>
-          </div>
-          <a href="" className="button submit">
-            Send
-          </a>
-        </form>
+        <ContributeForm />
       </div>
     </section>
   </div>

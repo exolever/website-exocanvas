@@ -48,10 +48,6 @@ export default function HTML(props) {
         />
         <script type="application/javascript" src={withPrefix('/js/util.js')} />
         <script type="application/javascript" src={withPrefix('/js/main.js')} />
-        <script
-          type="application/javascript"
-          src={withPrefix('/js/forms.js')}
-        />
       </body>
     </html>
   )
