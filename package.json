@@ -7,7 +7,7 @@
   "dependencies": {
     "gatsby": "^2.0.105",
     "gatsby-image": "^2.0.20",
-    "gatsby-plugin-mailchimp": "https://git@github.com:exodevhub/gatsby-plugin-mailchimp.git#bugfix/groups",
+    "gatsby-plugin-mailchimp": "https://github.com/exodevhub/gatsby-plugin-mailchimp.git",
     "gatsby-plugin-manifest": "^2.0.15",
     "gatsby-plugin-offline": "^2.0.22",
     "gatsby-plugin-react-helmet": "^3.0.2",
