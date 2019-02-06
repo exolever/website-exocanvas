@@ -12,6 +12,14 @@ export default function HTML(props) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
+        <link rel="stylesheet" href="/css/custom.css" preload="true" />
+        <link
+          rel="stylesheet"
+          href="/css/font-awesome.min.css"
+          preload="true"
+        />
+        <link rel="stylesheet" href="/css/main.css" preload="true" />
+        <link rel="stylesheet" href="/css/noscript.css" preload="true" />
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>
