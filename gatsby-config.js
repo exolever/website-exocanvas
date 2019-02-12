@@ -8,6 +8,10 @@ module.exports = {
           'https://exodevhub.us20.list-manage.com/subscribe/post?u=ccfff1ccf7951d4ec0af22cac&amp;id=8ca8438865',
       },
     },
+    {
+      resolve: `gatsby-plugin-google-tagmanager`,
+      options: { id: "GTM-MGZKDPL",
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',
