@@ -10,10 +10,7 @@ module.exports = {
     },
     {
       resolve: `gatsby-plugin-google-tagmanager`,
-      options: { id: "GTM-MGZKDPL",
+      options: { id: "GTM-MGZKDPL" }
     }
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.app/offline
-    // 'gatsby-plugin-offline',
-  ],
+  ]
 }

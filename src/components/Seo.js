@@ -3,7 +3,6 @@ import Helmet from 'react-helmet'
 
 const SEO = ({ postNode, postPath, postSEO, config }) => {
     let schemaOrgJSONLD;
-    console.log(postNode);
     const title = postNode ? postNode.frontmatter.title : config.meta.title; // eslint-disable-line prefer-destructuring
     const description = postNode ? postNode.excerpt : config.meta.description;
     const image = postNode ? postNode.frontmatter.banner : config.meta.banner;
