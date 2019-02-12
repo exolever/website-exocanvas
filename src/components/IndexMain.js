@@ -8,18 +8,12 @@ import rawPixel706373Unsplash from '../images/rawpixel-706373-unsplash.jpg'
 
 const IndexMain = () => (
   <div id="wrapper">
-    <section id="intro" className="wrapper style1 fullscreen fade-up">
+    <section id="intro" className="wrapper style1 fullscreen fade-up inactive">
       <div className="inner">
         <div className="row">
           <div className="col-6 content">
             <h1>ExO Canvas</h1>
-            <div
-              style={{
-                backgroundColor: 'rgba(0,0,0,.6)',
-                borderRadius: 8,
-                padding: '12px 24px 0 24px',
-              }}
-            >
+            <div>
               <div>
                 <p>Your Exponential Organization on one page</p>
                 <p>
@@ -44,7 +38,7 @@ const IndexMain = () => (
     </section>
 
     <section id="one" className="wrapper style2 spotlights">
-      <section id="subscribe_form_section">
+      <section id="subscribe_form_section" className="inactive">
         <a href="#one" className="image">
           <img
             src={downloadCanvasHomeImage}
@@ -65,7 +59,7 @@ const IndexMain = () => (
           </div>
         </div>
       </section>
-      <section>
+      <section className="inactive">
         <a href="/how-scalable/" className="image">
           <img
             src={howScalableHomeImage}
@@ -91,7 +85,7 @@ const IndexMain = () => (
           </div>
         </div>
       </section>
-      <section>
+      <section className="inactive">
         <a href="/creation-process/" className="image">
           <img
             src={rawPixel706373Unsplash}
@@ -119,7 +113,7 @@ const IndexMain = () => (
       </section>
     </section>
 
-    <section id="three" className="wrapper style1 fade-up">
+    <section id="three" className="wrapper style1 fade-up inactive">
       <div className="inner">
         <h2>Get in Touch</h2>
         <div className="split style1">

@@ -28,13 +28,13 @@ export default function HTML(props) {
           preload="true"
         />
         <link rel="stylesheet" href="/css/main.css" preload="true" />
-        <link rel="stylesheet" href="/css/noscript.css" preload="true" />
         {props.headComponents}
       </head>
-      <body {...props.bodyAttributes}>
+      <body {...props.bodyAttributes} className="is-preload">
         {props.preBodyComponents}
         <noscript key="noscript" id="gatsby-noscript">
           This app works best with JavaScript enabled.
+          <link rel="stylesheet" href="/css/noscript.css" preload="true" />
         </noscript>
         <div
           key={`body`}
