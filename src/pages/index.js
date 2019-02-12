@@ -4,13 +4,11 @@ import SEO from '../components/Seo'
 import IndexMain from '../components/IndexMain'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import config from '../../site-config';
 
 const IndexPage = () => (
   <>
-    <SEO
-      title="ExO Canvas"
-      keywords={[`OpenExO`, `exponential organization`, `sprint`]}
-    />
+    <SEO config={config} />
     <Header />
     <IndexMain />
     <Footer />

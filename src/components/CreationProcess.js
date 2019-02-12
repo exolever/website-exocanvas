@@ -1,7 +1,6 @@
 import React from 'react'
 
 import rawPixel706373UnsplashImage from '../images/rawpixel-706373-unsplash.jpg'
-import ContributeForm from './forms/ContributeForm'
 
 const CreationProcess = () => (
   <div id="wrapper">
@@ -36,20 +35,8 @@ const CreationProcess = () => (
                 Canvas
               </a>
             </p>
-
-            <p>
-              If you have feedback and want to make a contribution for the
-              upcoming versions of the ExO Canvas, please send it here and...
-            </p>
           </div>
         </div>
-      </div>
-    </section>
-
-    <section className="wrapper">
-      <div className="inner" style={{ paddingTop: 0 }}>
-        <h4>You may become an official Co-Creator of the ExO Canvas:</h4>
-        <ContributeForm />
       </div>
     </section>
   </div>
