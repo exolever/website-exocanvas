@@ -2,8 +2,13 @@
   "name": "website-exocanvas",
   "github": {
     "enabled": true,
-    "autoAlias": false
+    "autoAlias": true
   },
+  "alias": [
+    "www.exocanvas.com",
+    "exocanvas.com",
+    "exocanvas.now.sh"
+  ],
   "builds": [
     {
       "src": "package.json",
