@@ -85,7 +85,7 @@ const IndexMain = () => (
           </div>
         </div>
       </section>
-      <section className="inactive">
+      <section id="three" className="inactive">
         <a href="/creation-process/" className="image">
           <img
             src={rawPixel706373Unsplash}
@@ -117,7 +117,7 @@ const IndexMain = () => (
       </section>
     </section>
 
-    <section id="three" className="wrapper style1 fade-up inactive">
+    <section id="four" className="wrapper style1 fade-up inactive">
       <div className="inner">
         <h2>Get in Touch</h2>
         <div className="split style1">
