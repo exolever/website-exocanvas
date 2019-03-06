@@ -99,12 +99,16 @@ const IndexMain = () => (
             <p>
               The ExO Canvas was created by a group of ExO practitioners from
               around the world during a co-creation process that took a few
-              months and was released in March 2016.
+              months and was released in March 2016. To continuously improving
+              this great tool, the ExO Canvas is being managed as a software
+              piece. Every few months, a new version of the ExO Canvas will be
+              released based on the feedback received by the ExO Canvas
+              Community.
             </p>
             <ul className="actions">
               <li>
-                <a className="button" href="/creation-process/">
-                  contribute
+                <a className="button" href="/co-creators/">
+                  Meet the Co-Creators
                 </a>
               </li>
             </ul>
