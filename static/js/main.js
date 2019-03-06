@@ -156,6 +156,22 @@
         $(this).removeClass('inactive')
       },
     })
+
+    $('.drawer-button')
+      .on('click', function() {
+        var targetId = $(this).data('target');
+        var $this = $(this);
+
+        if ($this.hasClass('target-open')) {
+          $this.removeClass('target-open');
+          $this.find('i').removeClass('fa-angle-up').addClass('fa-angle-down');
+          $('#' + targetId).slideUp(500);
+        } else {
+          $this.addClass('target-open');
+          $this.find('i').removeClass('fa-angle-down').addClass('fa-angle-up');
+          $('#' + targetId).slideDown(500);
+        }
+      })
   }
 
   setTimeout(run, 1000)

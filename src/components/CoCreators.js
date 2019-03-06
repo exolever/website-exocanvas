@@ -50,7 +50,7 @@ const CoCreators = () => (
   <div id="wrapper">
     <section id="cocreators" className="wrapper">
       <div className="inner">
-        <h1 className="major">CO-CREATORS</h1>
+        <h2 className="major" style={{textAlign: 'center', marginBottom: '2em'}}>Co-Creators</h2>
         <div className="row">
           <div className="col-2 col-4-small">
             <img src={SalimIsmail} alt="Salim Ismail" />
