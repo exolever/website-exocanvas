@@ -108,7 +108,7 @@ const IndexMain = () => (
             </p>
             <ul className="actions">
               <li>
-                <a className="button drawer-button" data-target="co-creators-drawer">
+                <a href="#co-creators-drawer" className="button drawer-button" data-target="co-creators-drawer">
                   Meet the Co-Creators <i className="fa fa-angle-down"></i>
                 </a>
               </li>

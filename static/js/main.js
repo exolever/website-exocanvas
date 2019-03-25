@@ -158,10 +158,10 @@
     })
 
     $('.drawer-button')
-      .on('click', function() {
+      .on('click', function(e) {
         var targetId = $(this).data('target');
         var $this = $(this);
-
+        e.preventDefault();
         if ($this.hasClass('target-open')) {
           $this.removeClass('target-open');
           $this.find('i').removeClass('fa-angle-up').addClass('fa-angle-down');
