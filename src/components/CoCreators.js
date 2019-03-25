@@ -55,47 +55,47 @@ const CoCreators = () => (
           <div className="col-2 col-4-small">
             <img src={SalimIsmail} alt="Salim Ismail" />
             <p>Salim Ismail / USA/Canada</p>
-            <p>
+            {/* <p>
               <i>Author of the book Exponential Organizations</i>
-            </p>
+            </p> */}
           </div>
           <div className="col-2 col-4-small">
             <img src={JosephAjao} alt="Joseph Ajao" />
             <p>Joseph Ajao / Nigeria</p>
-            <p>
+            {/* <p>
               <i>Digital Supply Chain Transformation Consultant</i>
-            </p>
+            </p> */}
           </div>
           <div className="col-2 col-4-small">
             <img src={CamiloAristizabal} alt="Camilo Aristizabal" />
             <p>Camilo Aristizabal / Colombia</p>
-            <p>
+            {/* <p>
               <i>Director Afiliaciones y Recaudo en Suramericana</i>
-            </p>
+            </p> */}
           </div>
           <div className="col-2 col-4-small">
             <img src={CarlosAzevedo} alt="Carlos R.B. Azevedo" />
             <p>Carlos R.B. Azevedo / Brazil</p>
-            <p>
+            {/* <p>
               <i>
                 Advancing Artificial Intelligence for a sustainable Networked
                 Society at Ericsson Research
               </i>
-            </p>
+            </p> */}
           </div>
           <div className="col-2 col-4-small">
             <img src={RalfBamert} alt="Ralf Bamert" />
             <p>Ralf Bamert / Switzerland</p>
-            <p>
+            {/* <p>
               <i>Digital Transformator and ExO Evangelist</i>
-            </p>
+            </p> */}
           </div>
           <div className="col-2 col-4-small">
             <img src={User1} alt="Vanessa Belmonte" />
             <p>Vanessa Belmonte / USA</p>
-            <p>
+            {/* <p>
               <i>Marketing & Logistics at ExO Works</i>
-            </p>
+            </p> */}
           </div>
         </div>
         <br />
@@ -103,56 +103,56 @@ const CoCreators = () => (
           <div className="col-2 col-4-small">
             <img src={OrenBerkovich} alt="Oren Berkovich" />
             <p>Oren Berkovich / Canada</p>
-            <p>
+            {/* <p>
               <i>
                 Exponential Technologies Strategist at Deloitte's National
                 Innovation Office
               </i>
-            </p>
+            </p> */}
           </div>
           <div className="col-2 col-4-small">
             <img src={JoshCamire} alt="Josh Camire" />
             <p>Josh Camire / USA</p>
-            <p>
+            {/* <p>
               <i>
                 Solutions Engineer | Marketing | Social + Digital |
                 Organizational Design
               </i>
-            </p>
+            </p> */}
           </div>
           <div className="col-2 col-4-small">
             <img src={AndreaCastelli} alt="Andrea Castelli" />
             <p>Andrea Castelli / Mexico</p>
-            <p>
+            {/* <p>
               <i>
                 Director, IT & PE Mexico, Colombia, EM & Shared Services Center
                 LatAm at American Tower
               </i>
-            </p>
+            </p> */}
           </div>
           <div className="col-2 col-4-small">
             <img src={CesarCastro} alt="Cesar Castro" />
             <p>Cesar Castro / USA</p>
-            <p>
+            {/* <p>
               <i>
                 Regional General Manager | Consumer Electronics, Mobility,
                 Telecom & Digital Transformation
               </i>
-            </p>
+            </p> */}
           </div>
           <div className="col-2 col-4-small">
             <img src={MarcioChaer} alt="Marcio Chaer" />
             <p>Marcio Chaer / Brazil</p>
-            <p>
+            {/* <p>
               <i>Transforming Problems into Exponential Growth Solutions</i>
-            </p>
+            </p> */}
           </div>
           <div className="col-2 col-4-small">
             <img src={RolfClausen} alt="Rolf Clausen" />
             <p>Rolf Clausen / Denmark</p>
-            <p>
+            {/* <p>
               <i>Technology, future, communications, strategy</i>
-            </p>
+            </p> */}
           </div>
         </div>
         <br />
@@ -160,50 +160,50 @@ const CoCreators = () => (
           <div className="col-2 col-4-small">
             <img src={FernandoCruz} alt="Fernando Cruz" />
             <p>Fernando Cruz / Canada</p>
-            <p>
+            {/* <p>
               <i>Sourcing Advisory, Digital Convergence & ExO Consultant</i>
-            </p>
+            </p> */}
           </div>
           <div className="col-2 col-4-small">
             <img src={RichardDejeu} alt="Richard Dejeu" />
             <p>Richard Dejeu / Netherlands</p>
-            <p>
+            {/* <p>
               <i>
                 Visionair, Professional Speaker on our future with Disruptive
                 Technologies, Singularity and Exponential Growth
               </i>
-            </p>
+            </p> */}
           </div>
           <div className="col-2 col-4-small">
             <img src={CheFehrenbach} alt="Che Fehrenbach" />
             <p>Che Fehrenbach / Canada</p>
-            <p>
+            {/* <p>
               <i>Channel Manager at ExO Works</i>
-            </p>
+            </p> */}
           </div>
           <div className="col-2 col-4-small">
             <img src={JorgeGarcia} alt="Jorge Juan Fernandez Garcia" />
             <p>Jorge Juan Fernandez Garcia / Spain</p>
-            <p>
+            {/* <p>
               <i>
                 BHITE polymath (Biomedicine + Healthcare + Innovation +
                 Technology + Entrepreneurship)
               </i>
-            </p>
+            </p> */}
           </div>
           <div className="col-2 col-4-small">
             <img src={AngelBorjabad} alt="Angel Gutierrez Borjabad" />
             <p>Angel Gutierrez Borjabad / Spain</p>
-            <p>
+            {/* <p>
               <i>Partner | Head of everis NEXT at everis</i>
-            </p>
+            </p> */}
           </div>
           <div className="col-2 col-4-small">
             <img src={ArmandoHalbinger} alt="Armando Halbinger" />
             <p>Armando Halbinger / Mexico</p>
-            <p>
+            {/* <p>
               <i>Director of Marketing at Microsoft Mexico</i>
-            </p>
+            </p> */}
           </div>
         </div>
         <br />
@@ -211,47 +211,47 @@ const CoCreators = () => (
           <div className="col-2 col-4-small">
             <img src={EvonneHeyning} alt="Evonne Heyning" />
             <p>Evonne Heyning / USA</p>
-            <p>
+            {/* <p>
               <i>Media, Tech, Global Impact Strategy and Production</i>
-            </p>
+            </p> */}
           </div>
           <div className="col-2 col-4-small">
             <img src={PeterHyldgaard} alt="Peter Hyldgaard" />
             <p>Peter Hyldgaard / Denmark</p>
-            <p>
+            {/* <p>
               <i>Northern Region, Denmark | Environmental services</i>
-            </p>
+            </p> */}
           </div>
           <div className="col-2 col-4-small">
             <img src={LauraKing} alt="Laura King" />
             <p>Laura King / USA</p>
-            <p>
+            {/* <p>
               <i>
                 Employee Communications | Leadership Development Consultant |
                 Executive Coach
               </i>
-            </p>
+            </p> */}
           </div>
           <div className="col-2 col-4-small">
             <img src={KentLangley} alt="Kent Langley" />
             <p>Kent Langley / USA</p>
-            <p>
+            {/* <p>
               <i>Coach, Consultant, Advisor and Speaker</i>
-            </p>
+            </p> */}
           </div>
           <div className="col-2 col-4-small">
             <img src={AdamLittle} alt="Adam Little" />
             <p>Adam Little / Canada</p>
-            <p>
+            {/* <p>
               <i>Veterinary Consultant</i>
-            </p>
+            </p> */}
           </div>
           <div className="col-2 col-4-small">
             <img src={MarioMuñoz} alt="Mario López de Ávila Muñoz" />
             <p>Mario López de Ávila Muñoz / Spain</p>
-            <p>
+            {/* <p>
               <i>Principal and Founder NODOS</i>
-            </p>
+            </p> */}
           </div>
         </div>
         <br />
@@ -259,55 +259,55 @@ const CoCreators = () => (
           <div className="col-2 col-4-small">
             <img src={WolfgangMarkt} alt="Wolfgang Markt" />
             <p>Wolfgang Markt / United Kingdom</p>
-            <p>
+            {/* <p>
               <i>Roboticist, Entrepreneur, Startup Consultant</i>
-            </p>
+            </p> */}
           </div>
           <div className="col-2 col-4-small">
             <img src={EstherRecuero} alt="Esther Martínez Recuero" />
             <p>Esther Martínez Recuero / Spain</p>
-            <p>
+            {/* <p>
               <i>
                 Graphic designer | web designer | developer the UI and UX at ExO
                 Works
               </i>
-            </p>
+            </p> */}
           </div>
           <div className="col-2 col-4-small">
             <img src={FranciscoMilagres} alt="Francisco Milagres" />
             <p>Francisco Milagres / Brazil</p>
-            <p>
+            {/* <p>
               <i>
                 Entrepreneur, Advisor, Investor | SingularityU Community
                 Ambassador
               </i>
-            </p>
+            </p> */}
           </div>
           <div className="col-2 col-4-small">
             <img src={FabrizioMilo} alt="Fabrizio Milo" />
             <p>Fabrizio Milo / USA/Italy</p>
-            <p>
+            {/* <p>
               <i>Sr. Platform Engineer at Scopely</i>
-            </p>
+            </p> */}
           </div>
           <div className="col-2 col-4-small">
             <img src={MichalMonit} alt="Michal Monit" />
             <p>Michal Monit / Poland</p>
-            <p>
+            {/* <p>
               <i>
                 Finishing PhD looking for innovation / design / entrepreneurship
                 / social impact opportunities in small, agile teams
               </i>
-            </p>
+            </p> */}
           </div>
           <div className="col-2 col-4-small">
             <img src={MújicaMaría} alt="Mújica María" />
             <p>Mújica María / Argentina</p>
-            <p>
+            {/* <p>
               <i>
                 Latam Regional Marketing Director — Leader Fly Garage @ Mondelez
               </i>
-            </p>
+            </p> */}
           </div>
         </div>
         <br />
@@ -315,53 +315,53 @@ const CoCreators = () => (
           <div className="col-2 col-4-small">
             <img src={AnthonyOnesto} alt="Anthony Onesto" />
             <p>Anthony Onesto / USA</p>
-            <p>
+            {/* <p>
               <i>
                 Executive / Advisor — Startup, High Growth Technology & Digital
                 Advertising Companies // ExO Consultant // HR Futurist
               </i>
-            </p>
+            </p> */}
           </div>
           <div className="col-2 col-4-small">
             <img src={DavidOrban} alt="David Orban" />
             <p>David Orban / USA</p>
-            <p>
+            {/* <p>
               <i>Founder & Managing Partner at Network Society Ventures</i>
-            </p>
+            </p> */}
           </div>
           <div className="col-2 col-4-small">
             <img src={IvánOrtenzi} alt="Iván Ortenzi" />
             <p>Iván Ortenzi / Italy</p>
-            <p>
+            {/* <p>
               <i>
                 Fun and work @Ars et Inventio & @Bip | Montessori Kid | Neotenic
                 | Innovation | Strategy | Digital | Exponential
               </i>
-            </p>
+            </p> */}
           </div>
           <div className="col-2 col-4-small">
             <img src={FranciscoPalaoReines} alt="Francisco Palao-Reines" />
             <p>Francisco Palao-Reines / Spain</p>
-            <p>
+            {/* <p>
               <i>Technology, Innovation and Entrepreneurship</i>
-            </p>
+            </p> */}
           </div>
           <div className="col-2 col-4-small">
             <img src={LailaPawlak} alt="Laila Pawlak" />
             <p>Laila Pawlak / Denmark</p>
-            <p>
+            {/* <p>
               <i>
                 Speaker. Singularity University Adjunct Faculty. Co-founder
                 DARE2, DARE2mansion, thinkubator & SingularityU Cph Chapter
               </i>
-            </p>
+            </p> */}
           </div>
           <div className="col-2 col-4-small">
             <img src={User1} alt="Francisco Poyatos Jimenez" />
             <p>Francisco Poyatos Jimenez / Spain</p>
-            <p>
+            {/* <p>
               <i>Transforming Problems into Exponential Growth Solutions</i>
-            </p>
+            </p> */}
           </div>
         </div>
         <br />
@@ -369,53 +369,53 @@ const CoCreators = () => (
           <div className="col-2 col-4-small">
             <img src={AnnRalston} alt="Ann Ralston" />
             <p>Ann Ralston / USA</p>
-            <p>
+            {/* <p>
               <i>Business Consultant | President, RalstonConsulting.com</i>
-            </p>
+            </p> */}
           </div>
           <div className="col-2 col-4-small">
             <img src={GaryRalston} alt="Gary Ralston" />
             <p>Gary Ralston / USA</p>
-            <p>
+            {/* <p>
               <i>
                 Management Consultant, Executive Coach and Partner,
                 RalstonConsulting.com
               </i>
-            </p>
+            </p> */}
           </div>
           <div className="col-2 col-4-small">
             <img src={XavierRenato} alt="Xavier de Lima Renato" />
             <p>Xavier de Lima Renato / Brazil</p>
-            <p>
+            {/* <p>
               <i>Content Curator at HandsOn.TV</i>
-            </p>
+            </p> */}
           </div>
           <div className="col-2 col-4-small">
             <img src={GarrySchulz} alt="Garry Schulz" />
             <p>Garry Schulz / Australia</p>
-            <p>
+            {/* <p>
               <i>
                 Co-founder and Advisor at New Game Academy, Founder and
                 Principal at “Disrupt It” and Foundation Investor at Kwezzi
               </i>
-            </p>
+            </p> */}
           </div>
           <div className="col-2 col-4-small">
             <img src={DiegoSoroa} alt="Diego Soroa" />
             <p>Diego Soroa / Spain</p>
-            <p>
+            {/* <p>
               <i>
                 How can I assist? Architect, Tech Creative, ExO Exponential
                 Organizations
               </i>
-            </p>
+            </p> */}
           </div>
           <div className="col-2 col-4-small">
             <img src={JoséTorres} alt="José Antonio Torres" />
             <p>José Antonio Torres / Ecuador</p>
-            <p>
+            {/* <p>
               <i>Executive President at THE EDGE GROUP</i>
-            </p>
+            </p> */}
           </div>
         </div>
         <br />
@@ -423,30 +423,30 @@ const CoCreators = () => (
           <div className="col-2 col-4-small">
             <img src={NathalieTrutmann} alt="Nathalie Trutmann" />
             <p>Nathalie Trutmann / Brazil</p>
-            <p>
+            {/* <p>
               <i>Managing Director, Latin America at Hyper Island</i>
-            </p>
+            </p> */}
           </div>
           <div className="col-2 col-4-small">
             <img src={JenniferVanDerMeer} alt="Jennifer Van der Meer" />
             <p>Jennifer Van der Meer / USA</p>
-            <p>
+            {/* <p>
               <i>Founder, Reason Street</i>
-            </p>
+            </p> */}
           </div>
           <div className="col-2 col-4-small">
             <img src={RaúlVergara} alt="Raúl Raya Vergara" />
             <p>Raúl Raya Vergara / Spain</p>
-            <p>
+            {/* <p>
               <i>Founder, Reason Street</i>
-            </p>
+            </p> */}
           </div>
           <div className="col-2 col-4-small">
             <img src={BrinkleyWarren} alt="Brinkley Warren" />
             <p>Brinkley Warren / USA</p>
-            <p>
+            {/* <p>
               <i>Co-Founder at MegaBots, Inc.</i>
-            </p>
+            </p> */}
           </div>
         </div>
       </div>
