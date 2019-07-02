@@ -1,0 +1,51 @@
+.custom_form input, textarea{
+	margin-top: 20px;
+}
+
+header li.active a {
+	color: white !important;
+}
+
+footer li {
+	color: #87C2CE;
+}
+
+footer a {
+	color: white !important;
+	float: right !important;
+	border-bottom: none !important;
+}
+
+
+#cocreators p {
+	margin-bottom: 0px !important;
+	line-height: normal;
+}
+
+#cocreators .col-4-small {
+	margin-bottom: 10px;
+}
+
+.truncatechars {
+	overflow:hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+}
+
+#cocreators img {
+	width: auto;
+	max-width: 100% !important;
+	border-radius: 4px;
+}
+
+#cocreators i {
+	font-size:70% !important;
+}
+
+#intro .content {
+	color: #D0F4FF;
+}
+
+form .form-success-message {
+	color: white;
+}
