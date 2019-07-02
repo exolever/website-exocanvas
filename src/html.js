@@ -14,27 +14,27 @@ export default function HTML(props) {
         />
         <link
           rel="icon"
-          href="/images/cropped-favicon-32x32.png"
+          href={withPrefix('/images/cropped-favicon-32x32.png')}
           sizes="32x32"
         />
         <meta
           name="msapplication-TileImage"
-          content="/images/cropped-favicon.png"
+          content={withPrefix('/images/cropped-favicon.png')}
         />
-        <link rel="stylesheet" href="/css/custom.css" preload="true" />
+        <link rel="stylesheet" href={withPrefix('/css/custom.css')} preload="true" />
         <link
           rel="stylesheet"
-          href="/css/font-awesome.min.css"
+          href={withPrefix('/css/font-awesome.min.css')}
           preload="true"
         />
-        <link rel="stylesheet" href="/css/main.css" preload="true" />
+        <link rel="stylesheet" href={withPrefix('/css/main.css')} preload="true" />
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes} className="is-preload">
         {props.preBodyComponents}
         <noscript key="noscript" id="gatsby-noscript">
           This app works best with JavaScript enabled.
-          <link rel="stylesheet" href="/css/noscript.css" preload="true" />
+          <link rel="stylesheet" href={withPrefix('/css/noscript.css')} preload="true" />
         </noscript>
         <div
           key={`body`}
