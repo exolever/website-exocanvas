@@ -49,3 +49,7 @@ footer a {
 form .form-success-message {
 	color: white;
 }
+
+.drawer {
+	display: none;
+}
