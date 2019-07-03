@@ -1,6 +1,6 @@
 # ExO Canvas [![Build Status](https://travis-ci.org/exolever/website-exocanvas.svg?branch=master)](https://travis-ci.org/exolever/website-exocanvas)
 
-[https://summits.openexo.com/](https://summits.openexo.com/)
+[https://exocanvas.com/](https://exocanvas.com/)
 
 
 ## Install Dependencies
