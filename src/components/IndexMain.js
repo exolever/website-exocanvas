@@ -85,7 +85,7 @@ const IndexMain = () => (
           </div>
         </div>
       </section>
-      <section className="inactive">
+      <section id="three" className="inactive">
         <a href="/creation-process/" className="image">
           <img
             src={rawPixel706373Unsplash}
@@ -99,12 +99,16 @@ const IndexMain = () => (
             <p>
               The ExO Canvas was created by a group of ExO practitioners from
               around the world during a co-creation process that took a few
-              months and was released in March 2016.
+              months and was released in March 2016. To continuously improving
+              this great tool, the ExO Canvas is being managed as a software
+              piece. Every few months, a new version of the ExO Canvas will be
+              released based on the feedback received by the ExO Canvas
+              Community.
             </p>
             <ul className="actions">
               <li>
-                <a className="button" href="/creation-process/">
-                  contribute
+                <a className="button" href="/co-creators/">
+                  Meet the Co-Creators
                 </a>
               </li>
             </ul>
@@ -113,7 +117,7 @@ const IndexMain = () => (
       </section>
     </section>
 
-    <section id="three" className="wrapper style1 fade-up inactive">
+    <section id="four" className="wrapper style1 fade-up inactive">
       <div className="inner">
         <h2>Get in Touch</h2>
         <div className="split style1">

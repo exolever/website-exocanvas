@@ -12,7 +12,10 @@ const Header = () => (
             <a href="#one">What is ExO Canvas?</a>
           </li>
           <li>
-            <a href="#three">Get in touch</a>
+            <a href="#three">Meet the Co-Creators</a>
+          </li>
+          <li>
+            <a href="#four">Get in touch</a>
           </li>
         </ul>
       </nav>
