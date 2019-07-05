@@ -12,11 +12,15 @@ deploy:
   keep-history: true
   on:
     branch: master
-before_script:
-  - "npm i -g gh-pages"
+# before_script:
+  # - "npm i -g gh-pages"
 #   - "npm i -g gatsby"
 #   - "npm i"
 script:
   - "npm run test"
-after_success:
-  - "npm run deploy:gh-pages"
+  - "npm run build"
+
+before_deploy:
+  - cd public  
+# after_success:
+  # - "npm run deploy:gh-pages"
