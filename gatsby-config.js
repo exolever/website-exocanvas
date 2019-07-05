@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: `/website-exocanvas`,
+  pathPrefix: `/`,
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
