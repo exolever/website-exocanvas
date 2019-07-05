@@ -12,11 +12,11 @@ export default function HTML(props) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        <meta name="title" content="exocanvas">
-        <meta name="keywords" content="exponential, organizations,tranformation, canvas, exocanvas, salim, ismail, francisco, palao, openexo, exo">
-        <meta name="robots" content="index, follow">
-        <meta name="language" content="English">
-        <meta name="author" content="OpenExO">
+        <meta name="title" content="exocanvas" />
+        <meta name="keywords" content="exponential, organizations,tranformation, canvas, exocanvas, salim, ismail, francisco, palao, openexo, exo" />
+        <meta name="robots" content="index, follow" />
+        <meta name="language" content="English" />
+        <meta name="author" content="OpenExO" />
         <link
           rel="icon"
           href={withPrefix('/images/cropped-favicon-32x32.png')}
