@@ -1,9 +1,6 @@
 language: node_js
 node_js:
   - stable
-# cache:
-#   directories:
-#   - node_modules
 deploy:
   provider: pages
   skip-cleanup: true
@@ -12,16 +9,5 @@ deploy:
   keep-history: true
   on:
     branch: master
-# before_script:
-  # - "npm i -g gh-pages"
-#   - "npm i -g gatsby"
-#   - "npm i"
 script:
-  # - "npm run test"
-  # - "npm run build --prefix-paths"
   - gatsby build --prefix-paths
-
-# before_deploy:
-#   - cd public  
-# after_success:
-  # - "npm run deploy:gh-pages"
