@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - "stable"
+  - stable
 # cache:
 #   directories:
 #   - node_modules
@@ -18,7 +18,8 @@ deploy:
 #   - "npm i"
 script:
   # - "npm run test"
-  - "npm run build"
+  # - "npm run build --prefix-paths"
+  - gatsby build --prefix-paths
 
 # before_deploy:
 #   - cd public  
