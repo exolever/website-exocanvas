@@ -71,6 +71,7 @@ class ContributeForm extends React.Component {
         name="mc-embedded-subscribe-form"
         onSubmit={this._handleSubmit}
       >
+        <input type="hidden" value="exocanvas.com" name="SITE" />
         <div className="fields">
           <div className="field">
             <input
