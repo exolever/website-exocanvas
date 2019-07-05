@@ -20,7 +20,7 @@ script:
   - "npm run test"
   - "npm run build"
 
-before_deploy:
-  - cd public  
+# before_deploy:
+#   - cd public  
 # after_success:
   # - "npm run deploy:gh-pages"
